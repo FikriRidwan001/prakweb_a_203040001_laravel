@@ -36,7 +36,7 @@
 
         <p class="card-text">{{ $posts[0]->excerpt }}</p>
 
-        <a href="/posts/{{ $posts[0]->slug }}" class="text-decoration-none btn btn-primary">Read More</a>
+        <a href="/posts/{{ $posts[0]->slug }}" class="text-decoration-none btn btn-dark">Read More</a>
 
     </div>
   </div>    
@@ -60,7 +60,7 @@
               </small>
             </p>
             <p class="card-text">{{ $post->excerpt }}</p>
-            <a href="/blog/{{ $post->slug }}" class="btn btn-primary">Read More</a>
+            <a href="/blog/{{ $post->slug }}" class="btn btn-dark">Read More</a>
           </div>
         </div>
       </div>
